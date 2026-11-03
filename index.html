@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inside a PC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Inside a PC</h1>
+    <p>A personal computer is a handful of parts that each do one job. This page lists the main ones.</p>
+
+    <!-- Image (inline SVG, so no extra files are needed) -->
+    <svg viewBox="0 0 240 160" width="240" height="160" role="img" aria-label="Line drawing of a desktop PC with a monitor and tower">
+      <rect x="10" y="10" width="140" height="90" fill="none" stroke="#9a9a9a" stroke-width="2"/>
+      <line x1="80" y1="100" x2="80" y2="125" stroke="#9a9a9a" stroke-width="2"/>
+      <line x1="50" y1="125" x2="110" y2="125" stroke="#9a9a9a" stroke-width="2"/>
+      <rect x="170" y="30" width="50" height="95" fill="none" stroke="#9a9a9a" stroke-width="2"/>
+      <circle cx="195" cy="50" r="4" fill="none" stroke="#9a9a9a" stroke-width="2"/>
+      <line x1="180" y1="80" x2="210" y2="80" stroke="#9a9a9a" stroke-width="2"/>
+    </svg>
+
+    <h2>The main parts</h2>
+
+    <h3>CPU</h3>
+    <p>The processor runs program instructions. More cores and higher clock speeds mean it can do more work at once.</p>
+
+    <h3>RAM</h3>
+    <p>Memory holds the data your programs are using right now. It is fast but empties when the PC is turned off.</p>
+
+    <h3>Storage</h3>
+    <p>An SSD or hard drive keeps your files and operating system permanently. SSDs are much faster than hard drives.</p>
+
+    <h3>GPU</h3>
+    <p>The graphics card draws the image on your screen. It matters most for games, video editing and 3D work.</p>
+
+    <h3>Motherboard and power supply</h3>
+    <p>The motherboard connects every part together, and the power supply gives each one the electricity it needs.</p>
+
+    <h2>Links</h2>
+    <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Personal_computer" target="_blank" rel="noopener">Personal computer (Wikipedia)</a></li>
+      <li><a href="https://pcpartpicker.com/" target="_blank" rel="noopener">PCPartPicker</a></li>
+      <li><a href="https://www.tomshardware.com/" target="_blank" rel="noopener">Tom's Hardware</a></li>
+    </ul>
+
+    <button id="parts-btn" type="button">Show parts checklist</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
